@@ -1,6 +1,5 @@
 <?php
-     //include("config.php");
-     //include("model.php");
+     include("model.php");
   
      if(isset($_POST["etat-f"])){
         switch($_POST["etat-f"]){

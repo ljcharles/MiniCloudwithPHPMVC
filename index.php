@@ -14,7 +14,6 @@
 </head>
 <body>
 <?php
-      echo $_SESSION["page"];
       switch($_SESSION["page"]){
 	 case "accueil":
 ?>
@@ -52,6 +51,12 @@
     Confirmation du mot de passe: <input type="password" name="password2" value=""/><br>
     <input type="submit" value="inscription"/><br> 
   </form>
+<?php 
+        break;
+        case "page personnelle":
+?>
+ <h1>Mon compte</h1>
+ 
 <?php break;}?>
 </body>
 </html>
