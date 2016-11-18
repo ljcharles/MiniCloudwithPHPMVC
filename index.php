@@ -14,6 +14,7 @@
 </head>
 <body>
 <?php
+      echo $_SESSION["page"];
       switch($_SESSION["page"]){
 	 case "accueil":
 ?>
